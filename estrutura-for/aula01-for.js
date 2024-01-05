@@ -1,4 +1,4 @@
-const nome = ' douglas da s.s ';
+const nome = 'douglas da s.s';
 
 // for (let i = 0; i < nome.length; i++) {
 //     console.log(nome[i]);
