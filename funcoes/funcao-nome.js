@@ -6,7 +6,7 @@ console.log(escrevendoMeuNome('douglas'));
 
 function verificarIdade(idade){
    if(idade >= 18){
-    return ' voce e maior de idade'
+    return 'voce e maior de idade'
    }else{
     return 'voce é menor de idade'
    }
