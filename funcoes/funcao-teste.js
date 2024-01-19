@@ -2,8 +2,8 @@
 
 
 
-function sayMyName(name){
-    console.log('Your name is ' + name);
+function quadrado(valor){
+    return valor * valor;
 }
-sayMyName("douglas");
-sayMyName("fernanda");
+const quadradoDeDez = quadrado(10);
+console.log(quadradoDeDez);
