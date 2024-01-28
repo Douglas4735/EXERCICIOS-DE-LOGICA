@@ -1,11 +1,14 @@
-const {gets, print} = require('./mediaAluno');
+const entradas = [7];
+let i = 0; 
 
-const media = gets();
+function gets(){
+    const valor = entradas[i];
+    i++;
+    return valor;
+}
 
-if (media < 5) {
-    print("reprovado");
-} else if (media >= 5 && media < 7) {
-    print('recuperação');
-} else {
-    print("aprovado");
-};
+function print(texto){
+    console.log(texto);
+}
+
+module.exports = { gets, print};
